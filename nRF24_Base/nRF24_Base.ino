@@ -23,15 +23,16 @@ Sleeper g_sleeper;
 */
 
 //#define SleepTimeColdMs   1800000   // 30 min
-#define SleepTimeColdMs   1000
+#define SleepTimeColdMs   1000         // 500 @8MHz =  1000 @ 16MHz
 //#define SleepTimeHotMs    30000     // 0,5 min
-#define SleepTimeHotMs   1000
+#define SleepTimeHotMs   1000          // 500 @8MHz =  1000 @ 16MHz
 
 #define RawTempHot        15        // 45 deg
 #define RawTempCold       10       // 40 deg
 
 // Data wire is plugged into port 2 on the Arduino
 #define ONE_WIRE_BUS 9
+#define ONE_WIRE_PULLUP 2
 #define TEMPERATURE_PRECISION 9
 
 // arrays to hold device addresses
@@ -55,13 +56,16 @@ struct DataStruct
 {
   unsigned int ui16RawTemperature;
   long lSleepTimeMs;
+  unsigned char ucCounter;  
 } TxData;
 
 void setup()
 {
   // start serial port
   Serial.begin(9600);  
-
+  
+  pinMode(ONE_WIRE_PULLUP, OUTPUT);
+  digitalWrite(ONE_WIRE_PULLUP, HIGH);
   // Start up the library
   sensors.begin();
 
@@ -70,6 +74,7 @@ void setup()
   // Set the PA Level low to prevent power supply related issues since this is a
  // getting_started sketch, and the likelihood of close proximity of the devices. RF24_PA_MAX is default.
   radio.setPALevel(RF24_PA_LOW);
+  radio.setDataRate(RF24_250KBPS);
   
   // Open a writing and reading pipe on each radio, with opposite addresses
   if(radioNumber){
@@ -79,7 +84,6 @@ void setup()
     radio.openWritingPipe(addresses[0]);
     radio.openReadingPipe(1,addresses[1]);
   }
-
 
   // Search for devices on the bus and assign based on an index
   if (!sensors.getAddress(SaunaThermometer, 0))
@@ -94,12 +98,15 @@ void setup()
 
 void loop()
 {
+  static unsigned char i;
+  
   switch (eSaunaState)
   {
     default:
     case Cold:
       sensors.requestTemperatures(); // Send the command to get temperatures
       TxData.ui16RawTemperature = sensors.getTemp(SaunaThermometer);
+      
       TxData.lSleepTimeMs = SleepTimeColdMs;
 
       if (DallasTemperature::rawToCelsius(TxData.ui16RawTemperature) > RawTempHot)
@@ -112,7 +119,10 @@ void loop()
     case Hot:
       sensors.requestTemperatures(); // Send the command to get temperatures
       TxData.ui16RawTemperature = sensors.getTemp(SaunaThermometer);
-      TxData.lSleepTimeMs = SleepTimeHotMs;
+      
+      TxData.lSleepTimeMs = SleepTimeHotMs ; 
+      TxData.ucCounter = i;
+      i++;
 
       if (DallasTemperature::rawToCelsius(TxData.ui16RawTemperature)< RawTempCold)
       {
@@ -129,7 +139,6 @@ void loop()
       }
 
       //radio.powerDown();
-      TxData.lSleepTimeMs = SleepTimeHotMs;
       break;
   }
 
@@ -138,5 +147,5 @@ void loop()
   Serial.print("Temperature: ");
   Serial.println(DallasTemperature::rawToCelsius(TxData.ui16RawTemperature));
 
-  g_sleeper.SleepMillis(TxData.lSleepTimeMs);
+  g_sleeper.SleepMillis(TxData.lSleepTimeMs >> 1);    // half sleep time for 8 MHz
 }

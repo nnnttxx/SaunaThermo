@@ -33,11 +33,12 @@ RF24 radio(A0, A1);    // ce_pin, cs_pin
 #define ONE_WIRE_BUS 9
 
 // Global Variables
-byte addresses[][6] = {"Master","Slave"};
+byte addresses[][6] = {"Master", "Slave"};
 
 struct DataStruct {
   unsigned int ui16RawTemperature;
   long lSleepTimeMs;
+  unsigned char ucCounter;
 } RxData;
 
 unsigned int TemperatureArray[TemperatureArrayElements];
@@ -84,7 +85,7 @@ void setup()
   // start serial port
   Serial.begin(9600);
   Serial.println("**** Client ***");
-  
+
   // setup I/O pins
   pinMode(EncoderButtonPin, INPUT_PULLUP);
   pinMode(PotiOuputPin, OUTPUT);
@@ -94,78 +95,88 @@ void setup()
   pinMode(BacklightPin, OUTPUT);
   digitalWrite(BacklightPin, LOW);    // P-Channel Mosfet
 
-//  display.begin();
+  //  display.begin();
 
   // Read Poti and set constrast
   digitalWrite(PotiOuputPin, HIGH);
-//  display.setContrast(analogRead(ContrastPin) >> 2);
+  //  display.setContrast(analogRead(ContrastPin) >> 2);
   digitalWrite(PotiOuputPin, LOW);
-//  display.clearDisplay();
-//  display.display();
+  //  display.clearDisplay();
+  //  display.display();
 
 
   radio.begin();
 
   // Set the PA Level low to prevent power supply related issues since this is a
- // getting_started sketch, and the likelihood of close proximity of the devices. RF24_PA_MAX is default.
+  // getting_started sketch, and the likelihood of close proximity of the devices. RF24_PA_MAX is default.
   radio.setPALevel(RF24_PA_LOW);
-  
+  radio.setDataRate(RF24_250KBPS);
+
   // Open a writing and reading pipe on each radio, with opposite addresses
-  if(radioNumber)
+  if (radioNumber)
   {
     radio.openWritingPipe(addresses[1]);
-    radio.openReadingPipe(1,addresses[0]);
+    radio.openReadingPipe(1, addresses[0]);
   }
   else
   {
     radio.openWritingPipe(addresses[0]);
-    radio.openReadingPipe(1,addresses[1]);
+    radio.openReadingPipe(1, addresses[1]);
   }
 
-   radio.startListening();
+  radio.startListening();
 
   //attachInterrupt(digitalPinToInterrupt(EncoderAPin), ReadEncoderAB, CHANGE);
   //attachInterrupt(digitalPinToInterrupt(EncoderButtonPin), isr_EncoderButtonPin , HIGH);
 
   // Display Selftest
-//  display.setCursor(5, 15);       // x, y coordinates
-//  display.println("SELFTEST \n");
-//  display.display();
+  //  display.setCursor(5, 15);       // x, y coordinates
+  //  display.println("SELFTEST \n");
+  //  display.display();
 
   Serial.println("init done");
 }
 
 void loop()
 {
-  if(radio.available())
-  {
-    Serial.println("RX done:");
-    
-    while(radio.available())
-    {
-      radio.read(&RxData, sizeof(RxData));  
-      Serial.println(DallasTemperature::rawToCelsius(RxData.ui16RawTemperature));
-      Serial.println((RxData.lSleepTimeMs));
-    }
-  }
-  
-  //  const static unsigned long ulMillisOffset = millis();
-  //
-  //  if (!RxData.lSleepTimeMs)
+  //  if(radio.available())
   //  {
-  //    // RADIO
-  //    radio.powerUp();
-  //    radio.startListening();
+  //    Serial.println("RX done:");
   //
-  //    while (!radio.available())  // wait for rx
+  //    while(radio.available())
   //    {
-  //      __asm__ __volatile__ ("nop\n\t");
+  //      radio.read(&RxData, sizeof(RxData));
+  //      Serial.println(DallasTemperature::rawToCelsius(RxData.ui16RawTemperature));
+  //      Serial.println(RxData.lSleepTimeMs);
+  //      Serial.println(RxData.ucCounter);
   //    }
-  //
-  //    radio.stopListening();
-  //    radio.read(&RxData, sizeof(RxData));
-  //    radio.powerDown();
-  //
+  //  }
+
+  //    const static unsigned long ulMillisOffset = millis();
+
+  //    if (!RxData.lSleepTimeMs)
+  //    {
+  // RADIO
+  radio.powerUp();
+  radio.startListening();
+
+  while (!radio.available())  // wait for rx
+  {
+    __asm__ __volatile__ ("nop\n\t");
+  }
+
+  //radio.stopListening();
+  radio.read(&RxData, sizeof(RxData));
+  radio.powerDown();
+  Serial.println(DallasTemperature::rawToCelsius(RxData.ui16RawTemperature));
+  Serial.println(RxData.lSleepTimeMs);
+  Serial.println(RxData.ucCounter);
+
+
+  //SLEEP
+  g_sleeper.SleepMillis(RxData.lSleepTimeMs);
+
+
   //    // SAVE DATA
   //    // shift last value to right, insert last value
   //    memmove(&TemperatureArray[1], &TemperatureArray[0], sizeof(TemperatureArray));
@@ -188,8 +199,6 @@ void loop()
   //    // listen for next rx
   //  }
 
-  //SLEEP
-  //g_sleeper.SleepMillis(RxData.lSleepTimeMs);
 }
 
 
