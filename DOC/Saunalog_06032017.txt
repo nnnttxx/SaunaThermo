@@ -1,0 +1,6489 @@
+**** Slave ***
+Init CC1100...
+Partnumber:0
+Version:14
+...done
+CC1101 Modulation:1
+CC1101 Frequency:3
+CC1101 Channel:1
+CC1101 Output Power Level:10
+CC1101 Own Address:3
+Configuration register settings:
+7 2E 80 7 57 43 3E E 45 3 
+1 8 0 21 65 6A F5 83 13 A0 
+F8 15 7 C 18 16 6C 3 40 91 
+2 26 9 56 7 A9 A 0 11 4D 
+0 59 7F 3F 81 3F B 
+PaTable:
+3 17 1D 26 50 86 CD C0 
+
+Init done
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+State Idle
+----- RX Payload ------
+RX_FIFO:E31641203075002F0D0CDDAC
+RSSI:-91 LQI:44 CRC:1
+-----------------------
+----- TX Payload -----tate Idle
+RX done
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+ulWaitForRxMs: 32094
+
+TemperatureK: 356
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 47
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3166120307500300D0CD1AB
+RSSI:-97 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1899
+
+TemperatureK: 358
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 48
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3166120307500310D0CD2A8
+RSSI:-97 LQI:40 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1909
+
+TemperatureK: 358
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 49
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3166120307500320D0CDCAB
+RSSI:-92 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1925
+
+TemperatureK: 358
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 50
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3164120307500330D0CDEAC
+RSSI:-91 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1924
+
+TemperatureK: 356
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 51
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3164120307500340D0CDDAA
+RSSI:-91 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1916
+
+TemperatureK: 356
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 52
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3164120307500350D0CD9AA
+RSSI:-93 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1905
+
+TemperatureK: 356
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 53
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3163120307500360D0CD5AE
+RSSI:-95 LQI:46 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1897
+
+TemperatureK: 355
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 54
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3163120307500370D0CDBAC
+RSSI:-92 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1887
+
+TemperatureK: 355
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 55
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3163120307500380D0CD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1872
+
+TemperatureK: 355
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 56
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3163120307500390D0CDAAC
+RSSI:-93 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1867
+
+TemperatureK: 355
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 57
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31621203075003A0D0CDBAC
+RSSI:-92 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1853
+
+TemperatureK: 354
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 58
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31621203075003B0D0CD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1844
+
+TemperatureK: 354
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 59
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3249
+----- RX Payload ------
+RX_FIFO:E31621203075003C0D0CD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1835
+
+TemperatureK: 354
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 60
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31611203075003D0D0CDDAB
+RSSI:-91 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1823
+
+TemperatureK: 353
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 61
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31621203075003E0D0CD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1812
+
+TemperatureK: 354
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 62
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31621203075003F0D0CD3AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1804
+
+TemperatureK: 354
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 63
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3249
+----- RX Payload ------
+RX_FIFO:E3162120307500400D0CD3AB
+RSSI:-96 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1798
+
+TemperatureK: 354
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 64
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3162120307500410D0CD3AD
+RSSI:-96 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1792
+
+TemperatureK: 354
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 65
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3161120307500420D0CD3AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1790
+
+TemperatureK: 353
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 66
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3161120307500430D0CD3AB
+RSSI:-96 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1787
+
+TemperatureK: 353
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 67
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3162120307500440D0CD1AD
+RSSI:-97 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1784
+
+TemperatureK: 354
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 68
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3162120307500450D0CD2AD
+RSSI:-97 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1780
+
+TemperatureK: 354
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 69
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3161120307500460D0CD1AC
+RSSI:-97 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1780
+
+TemperatureK: 353
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 70
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3161120307500470D0CD3AB
+RSSI:-96 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1771
+
+TemperatureK: 353
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 71
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3161120307500480D0CD3AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1767
+
+TemperatureK: 353
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 72
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3161120307500490D0CD3AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1764
+
+TemperatureK: 353
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 73
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31611203075004A0D0CD3AB
+RSSI:-96 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1761
+
+TemperatureK: 353
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 74
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31611203075004B0D0CD2AC
+RSSI:-97 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1756
+
+TemperatureK: 353
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 75
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31611203075004C0D0CD1AB
+RSSI:-97 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1752
+
+TemperatureK: 353
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 76
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31611203075004D0D0CD2AB
+RSSI:-97 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1747
+
+TemperatureK: 353
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 77
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E315F1203075004E0D0CD4AD
+RSSI:-96 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1743
+
+TemperatureK: 351
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 78
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315F1203075004F0D0CD4A9
+RSSI:-96 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1736
+
+TemperatureK: 351
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 79
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315F120307500500D0CD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1730
+
+TemperatureK: 351
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 80
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315F120307500510D0CD5AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1722
+
+TemperatureK: 351
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 81
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315F120307500520D0CD4AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1715
+
+TemperatureK: 351
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 82
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E315E120307500530D0CD5AB
+RSSI:-95 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1709
+
+TemperatureK: 350
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 83
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E315E120307500540D0CD2AA
+RSSI:-97 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1704
+
+TemperatureK: 350
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 84
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E315E120307500550D0CD7AB
+RSSI:-94 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1697
+
+TemperatureK: 350
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 85
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3249
+----- RX Payload ------
+RX_FIFO:E315E120307500560D0CD9AB
+RSSI:-93 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1691
+
+TemperatureK: 350
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 86
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315E120307500570D0CDCAC
+RSSI:-92 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1685
+
+TemperatureK: 350
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 87
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315E120307500580D0CD7AA
+RSSI:-94 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1680
+
+TemperatureK: 350
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 88
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E315E120307500590D0CD6A7
+RSSI:-95 LQI:39 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1672
+
+TemperatureK: 350
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 89
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315D1203075005A0D0CD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1663
+
+TemperatureK: 349
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 90
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E315D1203075005B0D0CD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1656
+
+TemperatureK: 349
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 91
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E315D1203075005C0D0CD5AB
+RSSI:-95 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1651
+
+TemperatureK: 349
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 92
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E315D1203075005D0D0CD2A9
+RSSI:-97 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1644
+
+TemperatureK: 349
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 93
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315B1203075005E0D0CD2A7
+RSSI:-97 LQI:39 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1638
+
+TemperatureK: 347
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 94
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315B1203075005F0D0CD4AD
+RSSI:-96 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1627
+
+TemperatureK: 347
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 95
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E315B120307500600D0CD5AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1620
+
+TemperatureK: 347
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 96
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E315B120307500610D0CD0AD
+RSSI:-98 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1612
+
+TemperatureK: 347
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 97
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315B120307500620D0CD2AD
+RSSI:-97 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1607
+
+TemperatureK: 347
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 98
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3249
+----- RX Payload ------
+RX_FIFO:E315B120307500630D0CD6AB
+RSSI:-95 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1600
+
+TemperatureK: 347
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 99
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315A120307500640D0CDAA9
+RSSI:-93 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1591
+
+TemperatureK: 346
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 100
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315A120307500650D0CD7AA
+RSSI:-94 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1583
+
+TemperatureK: 346
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 101
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E315A120307500660D0CD6AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1575
+
+TemperatureK: 346
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 102
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3159120307500670D0CD0AB
+RSSI:-98 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1565
+
+TemperatureK: 345
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 103
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3159120307500680D0CD6AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1552
+
+TemperatureK: 345
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 104
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3157120307500690D0CD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1530
+
+TemperatureK: 343
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 105
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31571203075006A0D0CD4AD
+RSSI:-96 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1513
+
+TemperatureK: 343
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 106
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31571203075006B0D0CD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1500
+
+TemperatureK: 343
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 107
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31561203075006C0D0CD7AB
+RSSI:-94 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1488
+
+TemperatureK: 342
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 108
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31571203075006D0D0CD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1478
+
+TemperatureK: 343
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 109
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31561203075006E0D0CD6AB
+RSSI:-95 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1472
+
+TemperatureK: 342
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 110
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31561203075006F0D0CD5A9
+RSSI:-95 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1463
+
+TemperatureK: 342
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 111
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3156120307500700D0CD5A9
+RSSI:-95 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1455
+
+TemperatureK: 342
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 112
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3156120307500710D0CD5AB
+RSSI:-95 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1450
+
+TemperatureK: 342
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 113
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3156120307500720D0CD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1444
+
+TemperatureK: 342
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 114
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3155120307500730DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1436
+
+TemperatureK: 341
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 115
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3155120307500740DACDAAD
+RSSI:-93 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1427
+
+TemperatureK: 341
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 116
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3155120307500750D0CD4AD
+RSSI:-96 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1418
+
+TemperatureK: 341
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 117
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3155120307500760D0CD4A9
+RSSI:-96 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1410
+
+TemperatureK: 341
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 118
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3153120307500770DACD2A9
+RSSI:-97 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1401
+
+TemperatureK: 339
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 119
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3249
+----- RX Payload ------
+RX_FIFO:E3153120307500780D0CD2AC
+RSSI:-97 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1393
+
+TemperatureK: 339
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 120
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3153120307500790DACD3A9
+RSSI:-96 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1384
+
+TemperatureK: 339
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 121
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3249
+----- RX Payload ------
+RX_FIFO:E31521203075007A0DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1382
+
+TemperatureK: 338
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 122
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31521203075007B0DACD6AB
+RSSI:-95 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1372
+
+TemperatureK: 338
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 123
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31521203075007C0DACD7A9
+RSSI:-94 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1365
+
+TemperatureK: 338
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 124
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31521203075007D0D0CDBAB
+RSSI:-92 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1355
+
+TemperatureK: 338
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 125
+uiMasterBatteryVoltage:  3280
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31511203075007E0DACDBAD
+RSSI:-92 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1343
+
+TemperatureK: 337
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 126
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31511203075007F0DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1331
+
+TemperatureK: 337
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 127
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3151120307500800DACD4AA
+RSSI:-96 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1320
+
+TemperatureK: 337
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 128
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3151120307500810DACD6AA
+RSSI:-95 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1311
+
+TemperatureK: 337
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 129
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3151120307500820DACD6AA
+RSSI:-95 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1302
+
+TemperatureK: 337
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 130
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3150120307500830DACD7A8
+RSSI:-94 LQI:40 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1291
+
+TemperatureK: 336
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 131
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3150120307500840DACD2AB
+RSSI:-97 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1281
+
+TemperatureK: 336
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 132
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3150120307500850DACD2AD
+RSSI:-97 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1272
+
+TemperatureK: 336
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 133
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3150120307500860DACD4AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1263
+
+TemperatureK: 336
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 134
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E314F120307500870DACD5AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1255
+
+TemperatureK: 335
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 135
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E314F120307500880DACD4AA
+RSSI:-96 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1245
+
+TemperatureK: 335
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 136
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E314F120307500890DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1237
+
+TemperatureK: 335
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 137
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E314F1203075008A0DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1227
+
+TemperatureK: 335
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 138
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E314D1203075008B0DACD5A9
+RSSI:-95 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1221
+
+TemperatureK: 333
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 139
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E314D1203075008C0DACD3AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1212
+
+TemperatureK: 333
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 140
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E314C1203075008D0DACD4AB
+RSSI:-96 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1195
+
+TemperatureK: 332
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 141
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E314A1203075008E0DACD4AB
+RSSI:-96 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1179
+
+TemperatureK: 330
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 142
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E314A1203075008F0DACD4A7
+RSSI:-96 LQI:39 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1162
+
+TemperatureK: 330
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 143
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3149120307500900DACD4A9
+RSSI:-96 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1145
+
+TemperatureK: 329
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 144
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3149120307500910DACD2AB
+RSSI:-97 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1129
+
+TemperatureK: 329
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 145
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3148120307500920DACCFAC
+RSSI:-98 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1113
+
+TemperatureK: 328
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 146
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3148120307500930DACD4AD
+RSSI:-96 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1101
+
+TemperatureK: 328
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 147
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3148120307500940DACD5AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1088
+
+TemperatureK: 328
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 148
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3146120307500950DACD4AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1076
+
+TemperatureK: 326
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 149
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3146120307500960DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1066
+
+TemperatureK: 326
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 150
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3146120307500970DACD5AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1056
+
+TemperatureK: 326
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 151
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3146120307500980DACD5AA
+RSSI:-95 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1045
+
+TemperatureK: 326
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 152
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3146120307500990DACD6AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1036
+
+TemperatureK: 326
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 153
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31451203075009A0DACD4A9
+RSSI:-96 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1028
+
+TemperatureK: 325
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 154
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31451203075009B0DACD3AB
+RSSI:-96 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1020
+
+TemperatureK: 325
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 155
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31451203075009C0DACD2A9
+RSSI:-97 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1011
+
+TemperatureK: 325
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 156
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31451203075009D0DACD1AC
+RSSI:-97 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 1003
+
+TemperatureK: 325
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 157
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E31451203075009E0DACD2A9
+RSSI:-97 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 997
+
+TemperatureK: 325
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 158
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E31441203075009F0DACD3AB
+RSSI:-96 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 992
+
+TemperatureK: 324
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 159
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3249
+----- RX Payload ------
+RX_FIFO:E3144120307500A00DACD3AA
+RSSI:-96 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 984
+
+TemperatureK: 324
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 160
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3144120307500A10DACD4AA
+RSSI:-96 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 977
+
+TemperatureK: 324
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 161
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3144120307500A20DACD2AA
+RSSI:-97 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 971
+
+TemperatureK: 324
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 162
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3144120307500A30DACD0AA
+RSSI:-98 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 964
+
+TemperatureK: 324
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 163
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3144120307500A40DACD4A9
+RSSI:-96 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 959
+
+TemperatureK: 324
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 164
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3142120307500A50DACD4AA
+RSSI:-96 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 952
+
+TemperatureK: 322
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 165
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3142120307500A60DACD4AA
+RSSI:-96 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 947
+
+TemperatureK: 322
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 166
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3142120307500A70DACD2AA
+RSSI:-97 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 940
+
+TemperatureK: 322
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 167
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3142120307500A80DACD3AA
+RSSI:-96 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 935
+
+TemperatureK: 322
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 168
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3142120307500A90DACD2AA
+RSSI:-97 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 929
+
+TemperatureK: 322
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 169
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3142120307500AA0DACD1A9
+RSSI:-97 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 924
+
+TemperatureK: 322
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 170
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3142120307500AB0DACD2A9
+RSSI:-97 LQI:41 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 918
+
+TemperatureK: 322
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 171
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3141120307500AC0DACD2AB
+RSSI:-97 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 913
+
+TemperatureK: 321
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 172
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3141120307500AD0DACD4AB
+RSSI:-96 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 907
+
+TemperatureK: 321
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 173
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3141120307500AE0DACD6AB
+RSSI:-95 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 901
+
+TemperatureK: 321
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 174
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3141120307500AF0DACD4AB
+RSSI:-96 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 897
+
+TemperatureK: 321
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 175
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3141120307500B00DACD4AB
+RSSI:-96 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 892
+
+TemperatureK: 321
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 176
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3140120307500B10DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 888
+
+TemperatureK: 320
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 177
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3141120307500B20DACD4AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 882
+
+TemperatureK: 321
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 178
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3140120307500B30DACD3AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 877
+
+TemperatureK: 320
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 179
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3140120307500B40DACD4AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 873
+
+TemperatureK: 320
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 180
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3140120307500B50DACD4AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 868
+
+TemperatureK: 320
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 181
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3140120307500B60DACD4AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 864
+
+TemperatureK: 320
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 182
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3140120307500B70DACD4AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 858
+
+TemperatureK: 320
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 183
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313F120307500B80DACD4AD
+RSSI:-96 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 854
+
+TemperatureK: 319
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 184
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313F120307500B90DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 851
+
+TemperatureK: 319
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 185
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313F120307500BA0DACD7AC
+RSSI:-94 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 847
+
+TemperatureK: 319
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 186
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313F120307500BB0DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 843
+
+TemperatureK: 319
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 187
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E313F120307500BC0DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 838
+
+TemperatureK: 319
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 188
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313F120307500BD0DACD4AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 833
+
+TemperatureK: 319
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 189
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E313F120307500BE0DACD7AC
+RSSI:-94 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 829
+
+TemperatureK: 319
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 190
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313E120307500BF0DACD6AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 827
+
+TemperatureK: 318
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 191
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313E120307500C00DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 822
+
+TemperatureK: 318
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 192
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E313E120307500C10DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 817
+
+TemperatureK: 318
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 193
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313E120307500C20DACD7AC
+RSSI:-94 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 814
+
+TemperatureK: 318
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 194
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313E120307500C30DACD7AC
+RSSI:-94 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 811
+
+TemperatureK: 318
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 195
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313E120307500C40DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 808
+
+TemperatureK: 318
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 196
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E313E120307500C50DACD6AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 803
+
+TemperatureK: 318
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 197
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313E120307500C60DACD6AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 802
+
+TemperatureK: 318
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 198
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313E120307500C70DACD3AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 797
+
+TemperatureK: 318
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 199
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313C120307500C80DACD2AD
+RSSI:-97 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 794
+
+TemperatureK: 316
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 200
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313C120307500C90DACD3AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 791
+
+TemperatureK: 316
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 201
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313C120307500CA0DACD6AD
+RSSI:-95 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 788
+
+TemperatureK: 316
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 202
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313C120307500CB0DACDCAC
+RSSI:-92 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 784
+
+TemperatureK: 316
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 203
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E313C120307500CC0DACD8AC
+RSSI:-94 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 781
+
+TemperatureK: 316
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 204
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313C120307500CD0DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 777
+
+TemperatureK: 316
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 205
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313C120307500CE0DACDAAC
+RSSI:-93 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 774
+
+TemperatureK: 316
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 206
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313B120307500CF0DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 771
+
+TemperatureK: 315
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 207
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313B120307500D00DACDBAC
+RSSI:-92 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 768
+
+TemperatureK: 315
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 208
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313C120307500D10DACDBAC
+RSSI:-92 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 765
+
+TemperatureK: 316
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 209
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313B120307500D20DACDAAC
+RSSI:-93 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 762
+
+TemperatureK: 315
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 210
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313B120307500D30DACDBAD
+RSSI:-92 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 759
+
+TemperatureK: 315
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 211
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313B120307500D40DACDCAD
+RSSI:-92 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 755
+
+TemperatureK: 315
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 212
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E313B120307500D50DACD4AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 753
+
+TemperatureK: 315
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 213
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3249
+----- RX Payload ------
+RX_FIFO:E313B120307500D60DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 749
+
+TemperatureK: 315
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 214
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E313B120307500D70DACD4AD
+RSSI:-96 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 745
+
+TemperatureK: 315
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 215
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3139120307500D80DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 744
+
+TemperatureK: 313
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 216
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E313B120307500D90DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 740
+
+TemperatureK: 315
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 217
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3139120307500DA0DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 738
+
+TemperatureK: 313
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 218
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3139120307500DB0DACD2AC
+RSSI:-97 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 735
+
+TemperatureK: 313
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 219
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3139120307500DC0DACDAAD
+RSSI:-93 LQI:45 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 733
+
+TemperatureK: 313
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 220
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3139120307500DD0DACD2AC
+RSSI:-97 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 729
+
+TemperatureK: 313
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 221
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3139120307500DE0DACD4AC
+RSSI:-96 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 727
+
+TemperatureK: 313
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 222
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3139120307500DF0DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 724
+
+TemperatureK: 313
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 223
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3139120307500E00DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 721
+
+TemperatureK: 313
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 224
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3138120307500E10DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 718
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 225
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3139120307500E20DACD8AC
+RSSI:-94 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 715
+
+TemperatureK: 313
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 226
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3139120307500E30DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 712
+
+TemperatureK: 313
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 227
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3138120307500E40DACD7AC
+RSSI:-94 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 710
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 228
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3138120307500E50DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 708
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 229
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3138120307500E60DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 705
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 230
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3138120307500E70DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 703
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 231
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3138120307500E80DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 698
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 232
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3138120307500E90DACD5AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 696
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 233
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3138120307500EA0DACD6AB
+RSSI:-95 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 694
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 234
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3138120307500EB0DACD7AC
+RSSI:-94 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 692
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 235
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3138120307500EC0DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 690
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 236
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3138120307500ED0DACD7AC
+RSSI:-94 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 688
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 237
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3137120307500EE0DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 684
+
+TemperatureK: 311
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 238
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3138120307500EF0DACD6AC
+RSSI:-95 LQI:44 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 682
+
+TemperatureK: 312
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 239
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3137120307500F00DACD6AB
+RSSI:-95 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 681
+
+TemperatureK: 311
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 240
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3137120307500F10DACD6AB
+RSSI:-95 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 678
+
+TemperatureK: 311
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 241
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3137120307500F20DACD7AB
+RSSI:-94 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 676
+
+TemperatureK: 311
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 242
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3137120307500F30DACD7AB
+RSSI:-94 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 672
+
+TemperatureK: 311
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 243
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3137120307500F40DACD7AB
+RSSI:-94 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 670
+
+TemperatureK: 311
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 244
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3137120307500F50DACD7AA
+RSSI:-94 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 668
+
+TemperatureK: 311
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 245
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3137120307500F60DACD7AB
+RSSI:-94 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 668
+
+TemperatureK: 311
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 246
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3137120307500F70DACD8AB
+RSSI:-94 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 664
+
+TemperatureK: 311
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 247
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3137120307500F80DACD7AB
+RSSI:-94 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 663
+
+TemperatureK: 311
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 248
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3135120307500F90DACD7AA
+RSSI:-94 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 659
+
+TemperatureK: 309
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 249
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3241
+----- RX Payload ------
+RX_FIFO:E3135120307500FA0DACD7AA
+RSSI:-94 LQI:42 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 658
+
+TemperatureK: 309
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 250
+uiMasterBatteryVoltage:  3290
+Delay 
+
+State RX
+ulSlaveBatteryVoltage Voltage 3233
+----- RX Payload ------
+RX_FIFO:E3135120307500FB0DACD1AB
+RSSI:-97 LQI:43 CRC:1
+-----------------------
+----- TX Payload ------
+TX_FIFO:51341636B
+-----------------------
+ACK sent!
+ulWaitForRxMs: 657
+
+TemperatureK: 309
+etTxProtocol: 2
+SleepTimeMs: 30000
+ucTxCounter: 251
+uiMasterBatteryVoltage:  3290
+Delay 
+

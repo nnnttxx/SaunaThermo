@@ -1,48 +1,23 @@
 // ATmega328 with int. OSC 8 MHz @ 3.3V
 
 // Include the libraries we need
-#include <OneWire.h>
-#include <DallasTemperature.h>
-#include <SPI.h>
-#include "RF24.h"
+#include <cc1100.h>
 #include "Sleeper.h"
 
-
-/****************** User Config ***************************/
-/***      Set this radio as radio number 0 or 1         ***/
-bool radioNumber = 0;
-
-/* Hardware configuration: Set up nRF24L01 radio on SPI bus plus pins 7 & 8 */
-RF24 radio(7, 8);   // ce_pin, cs_pin
-/**********************************************************/
-
-Sleeper g_sleeper;
-/* usage
-  // Power down for 10 seconds.
-  g_sleeper.SleepMillis(10000);
-*/
+// ADC Input defines
+#define ADC_InCH0   0
+#define ADC_InCH7   7
+#define ADC_InTemp  8
+#define ADC_InVBG  14
+#define ADC_InGND  15
 
 //#define SleepTimeColdMs   1800000   // 30 min
-#define SleepTimeColdMs   1000         // 500 @8MHz =  1000 @ 16MHz
+#define SleepTimeColdMs   60000         
 //#define SleepTimeHotMs    30000     // 0,5 min
-#define SleepTimeHotMs   1000          // 500 @8MHz =  1000 @ 16MHz
+#define SleepTimeHotMs   30000          
 
-#define RawTempHot        15        // 45 deg
-#define RawTempCold       10       // 40 deg
-
-// Data wire is plugged into port 2 on the Arduino
-#define ONE_WIRE_BUS 9
-#define ONE_WIRE_PULLUP 2
-#define TEMPERATURE_PRECISION 9
-
-// arrays to hold device addresses
-DeviceAddress SaunaThermometer;
-
-// Setup a oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)
-OneWire oneWire(ONE_WIRE_BUS);
-
-// Pass our oneWire reference to Dallas Temperature.
-DallasTemperature sensors(&oneWire);
+#define TempKHot        30 + 273       // Hysteresis rising 
+#define TempKCold       25 + 273       // Hysteresis falling
 
 enum eMainState
 {
@@ -50,102 +25,156 @@ enum eMainState
   Hot
 } eSaunaState;
 
-byte addresses[][6] = {"Master","Slave"};
-
-struct DataStruct 
+typedef enum
 {
-  unsigned int ui16RawTemperature;
-  long lSleepTimeMs;
-  unsigned char ucCounter;  
-} TxData;
+  etSleep,
+  etWarmingUp,
+  etMeasure,
+  etCoolingDown,
+} eProtocol;
+
+struct DataStruct
+{
+  unsigned char len;      // dummy
+  unsigned char RxAddr;   // dummy
+  unsigned char TxAddr;   // dummy
+  unsigned int ui16TemperatureK;
+  eProtocol etTxProtocol;
+  unsigned long ulSleepTimeMs;          // sleep time ms for 16MHz
+  unsigned int uiTxCounter;
+  unsigned int uiBatteryVoltage;
+};
+
+// Global Variables
+uint8_t My_addr, Rx_addr, ucTxPackketlength, ucLqi;
+DataStruct TxData;
+
+
+//init CC1100 constructor
+CC1100 cc1100;
+
+Sleeper g_sleeper;
+/* usage
+  // Power down for 10 seconds.
+  g_sleeper.SleepMillis(10000);
+*/
 
 void setup()
 {
   // start serial port
-  Serial.begin(9600);  
-  
-  pinMode(ONE_WIRE_PULLUP, OUTPUT);
-  digitalWrite(ONE_WIRE_PULLUP, HIGH);
-  // Start up the library
-  sensors.begin();
+  Serial.begin(9600);
+  Serial.println(F("**** Master ***"));
 
-  radio.begin();
+  // disable ADC
+  ADCSRA &= ~_BV(ADEN);   // sleep with 20nA current consumption on internal RC with 8 MHz
 
-  // Set the PA Level low to prevent power supply related issues since this is a
- // getting_started sketch, and the likelihood of close proximity of the devices. RF24_PA_MAX is default.
-  radio.setPALevel(RF24_PA_LOW);
-  radio.setDataRate(RF24_250KBPS);
-  
-  // Open a writing and reading pipe on each radio, with opposite addresses
-  if(radioNumber){
-    radio.openWritingPipe(addresses[1]);
-    radio.openReadingPipe(1,addresses[0]);
-  }else{
-    radio.openWritingPipe(addresses[0]);
-    radio.openReadingPipe(1,addresses[1]);
-  }
-
-  // Search for devices on the bus and assign based on an index
-  if (!sensors.getAddress(SaunaThermometer, 0))
+  // init CC1101 RF-module
+  if (cc1100.begin(CC1100_MODE_GFSK_1_2_kb, CC1100_FREQ_868MHZ, 1, 10, 1)) // modulation mode, frequency, channel, PA level in dBm, own address
   {
-    Serial.println("Unable to find address for Device 0");
+#ifndef CC1100_DEBUG
+    Serial.println(F("Init CC1101 successful"));
+#endif
   }
 
-  eSaunaState = Cold;
+  cc1100.show_main_settings();             //shows setting debug messages to UART
+  cc1100.show_register_settings();         //shows current CC1101 register values
+  My_addr = cc1100.get_myaddr();
+  cc1100.powerdown();
 
-  Serial.println("Init done\n");
+  Rx_addr = 0x03;                          //receiver address
+  
+  ucTxPackketlength = sizeof(DataStruct);
+  eSaunaState = Cold;
+  memset(&TxData, 0x00, sizeof(DataStruct));     // init TX Data structure
+  Serial.println(F("Init done"));
 }
 
 void loop()
 {
-  static unsigned char i;
+  static unsigned int uiCounter;
   
+  ADCSRA |= _BV(ADEN);    // enable ADC
+  TxData.ui16TemperatureK = cc1100.get_tempK();     // get temp
+  TxData.uiBatteryVoltage = (unsigned int) MeasureVCC();    // battery Voltage 
+  ADCSRA &= ~_BV(ADEN);   // disable ADC
+  cc1100.powerdown();
+
   switch (eSaunaState)
   {
-    default:
     case Cold:
-      sensors.requestTemperatures(); // Send the command to get temperatures
-      TxData.ui16RawTemperature = sensors.getTemp(SaunaThermometer);
-      
-      TxData.lSleepTimeMs = SleepTimeColdMs;
+      Serial.println(F("COLD"));
+      TxData.etTxProtocol = etSleep;
+      TxData.ulSleepTimeMs = SleepTimeColdMs;
 
-      if (DallasTemperature::rawToCelsius(TxData.ui16RawTemperature) > RawTempHot)
+      if (TxData.ui16TemperatureK > TempKHot)
       {
+        Serial.println(F("COLD to HOT"));
         eSaunaState = Hot;
-        TxData.lSleepTimeMs = SleepTimeHotMs;
+        TxData.etTxProtocol = etWarmingUp;
+        TxData.ulSleepTimeMs = SleepTimeHotMs;
+        uiCounter = 0;
+        goto TX_DATA;
       }
       break;
 
     case Hot:
-      sensors.requestTemperatures(); // Send the command to get temperatures
-      TxData.ui16RawTemperature = sensors.getTemp(SaunaThermometer);
-      
-      TxData.lSleepTimeMs = SleepTimeHotMs ; 
-      TxData.ucCounter = i;
-      i++;
+      Serial.println(F("HOT"));
+      TxData.etTxProtocol = etMeasure;
+      TxData.ulSleepTimeMs = SleepTimeHotMs;
+      TxData.uiTxCounter = uiCounter;
+      uiCounter++;
 
-      if (DallasTemperature::rawToCelsius(TxData.ui16RawTemperature)< RawTempCold)
+      Serial.print("TemperatureK: ");Serial.println(TxData.ui16TemperatureK);
+      Serial.print("etTxProtocol: ");Serial.println(TxData.etTxProtocol);
+      Serial.print("SleepTimeMs: ");Serial.println(TxData.ulSleepTimeMs);
+      Serial.print("uiTxCounter: ");Serial.println(TxData.uiTxCounter);
+      Serial.print("uiBatteryVoltage: ");Serial.println(TxData.uiBatteryVoltage);
+
+      if (TxData.ui16TemperatureK < TempKCold)
       {
+        Serial.println(F("HOT to COLD"));
         eSaunaState = Cold;
-        TxData.lSleepTimeMs = SleepTimeColdMs;
-        break;
+        TxData.ulSleepTimeMs = SleepTimeColdMs;
+        TxData.etTxProtocol = etCoolingDown;
       }
 
-      //radio.powerUp();
-      // send ui16RawTemp, SleeptimeHot;
-      if (!radio.write(&TxData, sizeof(TxData)))
-      {
-        Serial.println(F("TX failed"));
-      }
-
-      //radio.powerDown();
+TX_DATA:
+      cc1100.wakeup();
+      cc1100.send_packet(My_addr, Rx_addr, (uint8_t*) &TxData, ucTxPackketlength, 0);     //sents package over air. ACK is received via GPIO polling
+      cc1100.powerdown();
       break;
   }
 
-  Serial.print("Main State: ");
-  Serial.println(eSaunaState);
-  Serial.print("Temperature: ");
-  Serial.println(DallasTemperature::rawToCelsius(TxData.ui16RawTemperature));
+  Serial.print("Main State: ");Serial.println(eSaunaState);
+  Serial.println("**** SLEEPING ****");
+  Serial.println();
+  delay(100);      // wait for TX done in addition to delay(50) in Sleeper::SleepMillis(long millis)
 
-  g_sleeper.SleepMillis(TxData.lSleepTimeMs >> 1);    // half sleep time for 8 MHz
+  g_sleeper.SleepMillis(TxData.ulSleepTimeMs);    
+  //delay(TxData.ulSleepTimeMs);     
+}
+
+
+unsigned long MeasureVCC(void)
+{
+  uint16_t adc_low, adc_high;
+  uint32_t adc_result;
+
+  ADMUX |= _BV(REFS0);  // Aui32VCC with external capacitor at AREF pin
+  ADMUX |= ADC_InVBG;   // Input Channel Selection: 1.1V (VBG)
+  delay(10);
+  ADCSRA |= _BV(ADEN);    // enable ADC
+
+  ADCSRA |= _BV(ADSC);  //Messung starten
+
+  while (bitRead(ADCSRA, ADSC));  //warten bis Messung beendet ist
+  //Ergebnisse des ADC zwischenspeichern. Wichtig: zuerst ADCL auslesen, dann ADCH
+  adc_low = ADCL;
+  adc_high = ADCH;
+
+  ADCSRA &= ~_BV(ADEN);   // disable ADC
+  adc_result = (adc_high << 8) | adc_low; //Gesamtergebniss der ADC-Messung
+
+  // voltage reference rises with falling temperature
+  return (1125300L / adc_result);  //Versorgungsspannung in mV berechnen (1100mV * 1023 = 1125300)
 }
