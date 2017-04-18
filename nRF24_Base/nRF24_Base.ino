@@ -11,13 +11,10 @@
 #define ADC_InVBG  14
 #define ADC_InGND  15
 
-//#define SleepTimeColdMs   1800000   // 30 min
-#define SleepTimeColdMs   60000         
-//#define SleepTimeHotMs    30000     // 0,5 min
-#define SleepTimeHotMs   30000          
-
-#define TempKHot        30 + 273       // Hysteresis rising 
-#define TempKCold       25 + 273       // Hysteresis falling
+#define SleepTimeColdMs   1800000   // 30 min
+#define SleepTimeHotMs    30000     // 0,5 min
+#define TempKHot        50 + 273       // Hysteresis rising 
+#define TempKCold       45 + 273       // Hysteresis falling
 
 enum eMainState
 {
@@ -81,7 +78,7 @@ void setup()
   My_addr = cc1100.get_myaddr();
   cc1100.powerdown();
 
-  Rx_addr = 0x03;                          //receiver address
+  Rx_addr = 0x00;                          // BROADCAST
   
   ucTxPackketlength = sizeof(DataStruct);
   eSaunaState = Cold;
@@ -95,7 +92,7 @@ void loop()
   
   ADCSRA |= _BV(ADEN);    // enable ADC
   TxData.ui16TemperatureK = cc1100.get_tempK();     // get temp
-  TxData.uiBatteryVoltage = (unsigned int) MeasureVCC();    // battery Voltage 
+  TxData.uiBatteryVoltage = (unsigned int) ulMeasureVCC();    // battery Voltage 
   ADCSRA &= ~_BV(ADEN);   // disable ADC
   cc1100.powerdown();
 
@@ -154,16 +151,15 @@ TX_DATA:
   //delay(TxData.ulSleepTimeMs);     
 }
 
-
-unsigned long MeasureVCC(void)
+unsigned long ulMeasureVCC(void)
 {
   uint16_t adc_low, adc_high;
   uint32_t adc_result;
 
-  ADMUX |= _BV(REFS0);  // Aui32VCC with external capacitor at AREF pin
+  ADMUX |= _BV(REFS0);  // Voltage with external capacitor at AREF pin
+  ADMUX &= ~_BV(REFS1);  // Voltage with external capacitor at AREF pin
   ADMUX |= ADC_InVBG;   // Input Channel Selection: 1.1V (VBG)
   delay(10);
-  ADCSRA |= _BV(ADEN);    // enable ADC
 
   ADCSRA |= _BV(ADSC);  //Messung starten
 
@@ -172,7 +168,6 @@ unsigned long MeasureVCC(void)
   adc_low = ADCL;
   adc_high = ADCH;
 
-  ADCSRA &= ~_BV(ADEN);   // disable ADC
   adc_result = (adc_high << 8) | adc_low; //Gesamtergebniss der ADC-Messung
 
   // voltage reference rises with falling temperature

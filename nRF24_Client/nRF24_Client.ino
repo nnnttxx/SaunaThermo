@@ -5,7 +5,7 @@
 
 // Pin defines
 #define PWM_Pin         5       // PWM output Pins 3, 5, 6, 9 10, 11
-#define PushButton_Pin  A3       // ext. int Pins 2, 3
+#define PushButton_Pin  3       // ext. int Pins 2, 3
 
 // ADC Input defines
 #define ADC_InCH0   0
@@ -72,7 +72,6 @@ void setup()
   Serial.println(F("**** Slave ***"));
 
   pinMode(PushButton_Pin, INPUT_PULLUP);
-  pinMode(9, OUTPUT);
 
   // disable ADC for power saving
   ADCSRA &= ~_BV(ADEN);   // disable ADC
@@ -94,7 +93,7 @@ void setup()
   // voltmeter selftest
   analogWrite(PWM_Pin, 255);
   cc1100.receive();
-  ulSlaveBatteryVoltage = MeasureVCC();     // measure Supply Voltage with max. load
+  ulSlaveBatteryVoltage = ulMeasureVCC();     // measure Supply Voltage with max. load
   cc1100.powerdown();
   delay(2000);
   analogWrite(PWM_Pin, 0);
@@ -125,7 +124,7 @@ void loop()
   {
     case Idle:
       Serial.println(F("State Idle"));
-      analogWrite(PWM_Pin, (unsigned char) fPWMdutyIdle);
+      analogWrite(PWM_Pin, fPWMdutyIdle);
 
       if (ucCc1101_packet_available == TRUE)
       {
@@ -136,8 +135,8 @@ void loop()
 
     case Receiving:
       Serial.println(F("State RX"));
-      ulSlaveBatteryVoltage = MeasureVCC();
-      Serial.print("ulSlaveBatteryVoltage Voltage: "); Serial.println(ulSlaveBatteryVoltage);
+      ulSlaveBatteryVoltage = ulMeasureVCC();
+      Serial.print(F("ulSlaveBatteryVoltage Voltage: ")); Serial.println(ulSlaveBatteryVoltage);
 
       if (ulSlaveBatteryVoltage < VCCMin)
       {
@@ -163,30 +162,31 @@ void loop()
       ucCc1101_packet_available = FALSE;
       ulRxTmoCounter = ulRxTmoCounterDefault;
 
-      Serial.print("ulWaitForRxMs: "); Serial.println(ulWaitForRxMs);
+      Serial.print(F("ulWaitForRxMs: ")); Serial.println(ulWaitForRxMs);
       Serial.println();
-      Serial.print("TemperatureK: "); Serial.println(RxData.ui16TemperatureK);
-      Serial.print("etTxProtocol: "); Serial.println(RxData.etTxProtocol);
-      Serial.print("SleepTimeMs: "); Serial.println(RxData.ulSleepTimeMs);
-      Serial.print("ucTxCounter: "); Serial.println(RxData.ucTxCounter);
+      Serial.print(F("TemperatureK: ")); Serial.println(RxData.ui16TemperatureK);
+      Serial.print(F("etTxProtocol: ")); Serial.println(RxData.etTxProtocol);
+      Serial.print(F("SleepTimeMs: ")); Serial.println(RxData.ulSleepTimeMs);
+      Serial.print(F("ucTxCounter: ")); Serial.println(RxData.ucTxCounter);
       Serial.print(F("uiMasterBatteryVoltage:  ")); Serial.println(RxData.uiMasterBatteryVoltage);
 
-      fPWMduty = VCCMin / (float) ulSlaveBatteryVoltage * (RxData.ui16TemperatureK - (273 + 10)) * 2.31;    // 10 deg scale offset, Scaling 10-120 deg. 2
-                                                                                                            // 2.31 = 255/(120-10)
+      fPWMduty = VCCMin / (float) ulSlaveBatteryVoltage * (RxData.ui16TemperatureK - (273 + 10)) * 2.55F;    // 10 deg scale offset, Scaling 10-110 deg. 
+                                                                                                            // 2.31 = 255/(110-10)
       analogWrite(PWM_Pin, (unsigned char)fPWMduty);
 
       cc1100.powerdown();
-      Serial.println("Delay ");
+      Serial.println(F("Delay "));
       Serial.println();
-      delay(RxData.ulSleepTimeMs * 1.12);     // factor 1.12 @ 30s
+      delay(RxData.ulSleepTimeMs * 1.11F);      // factor 1.11 @ 30s, 3V Slave, no ACK (broadcast)
+                                                // factor 1.12 @ 30s, 3.3V Slave, with ACK
       cc1100.receive();             // wakeup and receive
       ulWaitForRxMs = millis();
       break;
 
     case LowBatterySlave:
       Serial.println(F("State Low Batt"));
-      ulSlaveBatteryVoltage = MeasureVCC();
-      Serial.print("ulSlaveBatteryVoltage Voltage: ");Serial.println(ulSlaveBatteryVoltage);
+      ulSlaveBatteryVoltage = ulMeasureVCC();
+      Serial.print(F("ulSlaveBatteryVoltage Voltage: "));Serial.println(ulSlaveBatteryVoltage);
       cc1100.powerdown();
 
       if (ulSlaveBatteryVoltage > (VCCMin + 300))   // 3.3V
@@ -197,7 +197,7 @@ void loop()
       }
 
       fPWMduty = VCCMin / (float) ulSlaveBatteryVoltage * fPWMdutyLowBatt;
-      analogWrite(PWM_Pin, (unsigned char) fPWMduty);
+      analogWrite(PWM_Pin, fPWMduty);
 
       delay(60000);     // 60s delay
       break;
@@ -205,7 +205,7 @@ void loop()
     case ReceiveTimeout:
       Serial.println(F("State Rx Timeout"));
       fPWMduty = VCCMin / (float) ulSlaveBatteryVoltage * fPWMdutyNoSignal;
-      analogWrite(PWM_Pin, (unsigned char) fPWMduty);
+      analogWrite(PWM_Pin,fPWMduty);
 
       // Tx not sleeping
       if (ucCc1101_packet_available == TRUE)
@@ -217,7 +217,7 @@ void loop()
 }
 
 
-unsigned long MeasureVCC(void)
+unsigned long ulMeasureVCC(void)
 {
   uint16_t adc_low, adc_high;
   uint32_t adc_result;
@@ -262,14 +262,16 @@ void Rssi_dbm_int (void)
 {
   detachInterrupt(digitalPinToInterrupt(PushButton_Pin));
   detachInterrupt(digitalPinToInterrupt(GDO2));
+  Serial.print(F("Rssi_dbm_int "));
 
-  while (PushButton_Pin == 0)
+  while(digitalRead(PushButton_Pin) == 0)
   {
-    fPWMduty = VCCMin / (float) ulSlaveBatteryVoltage * (cRssi_dbm + 10)  * (- 2.31);    // -100dBm eq. 100 degC
-    analogWrite(PWM_Pin, (unsigned char) fPWMduty);
+    fPWMduty = VCCMin / (float) ulSlaveBatteryVoltage * (abs(cRssi_dbm) - 10) * 2.55F;    // -100dBm eq. 100 degC
+    analogWrite(PWM_Pin, fPWMduty);
   }
 
   eSlaveState = Idle;
+  analogWrite(PWM_Pin, fPWMdutyIdle);
 
   attachInterrupt(digitalPinToInterrupt(PushButton_Pin), Rssi_dbm_int, FALLING);
   attachInterrupt(digitalPinToInterrupt(GDO2), rf_available_int, RISING);
