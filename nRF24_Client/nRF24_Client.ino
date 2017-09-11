@@ -2,9 +2,15 @@
 
 // Include the libraries we need
 #include <cc1100.h>
+#include <EEPROM.h>
+
+// EEPROM address define
+#define EEInitMarker      0
+#define EECalDoneAddress  1
+#define EECalDataAddress  2
 
 // Pin defines
-#define PWM_Pin         5       // PWM output Pins 3, 5, 6, 9 10, 11
+#define PWM_Pin         9       // PWM output Pins 3, 5, 6, 9, 10, 11. The PWM outputs generated on pins 5 and 6 will have higher-than-expected duty cycles.
 #define PushButton_Pin  3       // ext. int Pins 2, 3
 
 // ADC Input defines
@@ -57,10 +63,11 @@ enum eMainState
 uint8_t my_addr, rx_addr, ucRxPacketlength, ucSender, ucLqi;
 int8_t cRssi_dbm;
 volatile uint8_t ucCc1101_packet_available;
-uint32_t ulSlaveBatteryVoltage, ulRxTmoCounter;
+uint32_t ulSlaveBatteryVoltage, ulRxTmoCounter, ulReferenceVoltage1V1;
 float fPWMduty;  // PWM dutyclycle 255 steps
 DataStruct RxData;
 volatile unsigned long ulWaitForRxMs;
+
 
 //init CC1100 constructor
 CC1100 cc1100;
@@ -72,6 +79,9 @@ void setup()
   Serial.println(F("**** Slave ***"));
 
   pinMode(PushButton_Pin, INPUT_PULLUP);
+
+  // init ADC
+  vInitADC();
 
   // disable ADC for power saving
   ADCSRA &= ~_BV(ADEN);   // disable ADC
@@ -89,6 +99,17 @@ void setup()
 
   cc1100.show_main_settings();             // shows setting debug messages to UART
   cc1100.show_register_settings();         // shows current CC1101 register values
+
+  // init EEPROM if never used before
+  if (EEPROM.read(EEInitMarker) == 255)
+  {
+    vClearEEPROM();
+  }
+
+  // get init marker and calibration data from EEPROM
+  Serial.print(F("Voltage Calibration init Marker: ")); Serial.println(EEPROM.read(EECalDoneAddress));
+  ulReferenceVoltage1V1 = EEPROM.get(EECalDataAddress, ulReferenceVoltage1V1);
+  Serial.print(F("Referene Voltage in EEPROM: ")); Serial.print(ulReferenceVoltage1V1); Serial.println(F("mV"));
 
   // voltmeter selftest
   analogWrite(PWM_Pin, 255);
@@ -170,15 +191,15 @@ void loop()
       Serial.print(F("ucTxCounter: ")); Serial.println(RxData.ucTxCounter);
       Serial.print(F("uiMasterBatteryVoltage:  ")); Serial.println(RxData.uiMasterBatteryVoltage);
 
-      fPWMduty = VCCMin / (float) ulSlaveBatteryVoltage * (RxData.ui16TemperatureK - (273 + 10)) * 2.55F;    // 10 deg scale offset, Scaling 10-110 deg. 
-                                                                                                            // 2.31 = 255/(110-10)
+      fPWMduty = VCCMin / (float) ulSlaveBatteryVoltage * (RxData.ui16TemperatureK - (273 + 10)) * 2.55F;    // 10 deg scale offset, Scaling 10-110 deg.
+      // 2.31 = 255/(110-10)
       analogWrite(PWM_Pin, (unsigned char)fPWMduty);
 
       cc1100.powerdown();
       Serial.println(F("Delay "));
       Serial.println();
       delay(RxData.ulSleepTimeMs * 1.11F);      // factor 1.11 @ 30s, 3V Slave, no ACK (broadcast)
-                                                // factor 1.12 @ 30s, 3.3V Slave, with ACK
+      // factor 1.12 @ 30s, 3.3V Slave, with ACK
       cc1100.receive();             // wakeup and receive
       ulWaitForRxMs = millis();
       break;
@@ -186,7 +207,7 @@ void loop()
     case LowBatterySlave:
       Serial.println(F("State Low Batt"));
       ulSlaveBatteryVoltage = ulMeasureVCC();
-      Serial.print(F("ulSlaveBatteryVoltage Voltage: "));Serial.println(ulSlaveBatteryVoltage);
+      Serial.print(F("ulSlaveBatteryVoltage Voltage: ")); Serial.println(ulSlaveBatteryVoltage);
       cc1100.powerdown();
 
       if (ulSlaveBatteryVoltage > (VCCMin + 300))   // 3.3V
@@ -205,7 +226,7 @@ void loop()
     case ReceiveTimeout:
       Serial.println(F("State Rx Timeout"));
       fPWMduty = VCCMin / (float) ulSlaveBatteryVoltage * fPWMdutyNoSignal;
-      analogWrite(PWM_Pin,fPWMduty);
+      analogWrite(PWM_Pin, fPWMduty);
 
       // Tx not sleeping
       if (ucCc1101_packet_available == TRUE)
@@ -222,14 +243,12 @@ unsigned long ulMeasureVCC(void)
   uint16_t adc_low, adc_high;
   uint32_t adc_result;
 
-  ADMUX |= _BV(REFS0);  // AulSlaveBatteryVoltage with external capacitor at AREF pin
+  ADMUX |= _BV(REFS0);  // ulSlaveBatteryVoltage with external capacitor at AREF pin
   ADMUX |= ADC_InVBG;   // Input Channel Selection: 1.1V (VBG)
-  delay(10);
-  ADCSRA |= _BV(ADEN);    // enable ADC
-
-  ADCSRA |= _BV(ADSC);  //Messung starten
-
+  ADCSRA |= _BV(ADEN);  // enable ADC
+  ADCSRA |= _BV(ADSC);  // Messung starten
   while (bitRead(ADCSRA, ADSC));  //warten bis Messung beendet ist
+
   //Ergebnisse des ADC zwischenspeichern. Wichtig: zuerst ADCL auslesen, dann ADCH
   adc_low = ADCL;
   adc_high = ADCH;
@@ -237,8 +256,22 @@ unsigned long ulMeasureVCC(void)
   ADCSRA &= ~_BV(ADEN);   // disable ADC
   adc_result = (adc_high << 8) | adc_low; //Gesamtergebniss der ADC-Messung
 
-  //return (1125300L / adc_result);  //Versorgungsspannung in mV berechnen (1100mV * 1023 = 1125300)
-  return (1257647L / adc_result);  // calibrated suppply voltage 3.3 Volt
+  // calibrate internal reference
+  if (EEPROM.read(EECalDoneAddress) != 42)
+  {
+    Serial.println(F("Caibrating internal Referene Voltage with Supply Voltage 3.3V"));
+
+    // assume supply voltage is 3V3 when calibratiing
+    ulReferenceVoltage1V1 = (3300 * adc_result) >> 10;
+    Serial.print(F("Calculated Referene Voltage 1.1V: ")); Serial.print(ulReferenceVoltage1V1); Serial.println(F("mV"));
+
+    // write calibration data to EEPROM
+    EEPROM.put(EECalDoneAddress, 42);                      // write 0x01
+    EEPROM.put(EECalDataAddress, ulReferenceVoltage1V1);
+    Serial.print(F("Referene Voltage written to EEPROM: ")); Serial.print(EEPROM.get(EECalDataAddress, ulReferenceVoltage1V1)); Serial.println(F(" mV"));
+  }
+
+  return ((ulReferenceVoltage1V1 << 10) / adc_result);
 }
 
 
@@ -264,7 +297,7 @@ void Rssi_dbm_int (void)
   detachInterrupt(digitalPinToInterrupt(GDO2));
   Serial.print(F("Rssi_dbm_int "));
 
-  while(digitalRead(PushButton_Pin) == 0)
+  while (digitalRead(PushButton_Pin) == 0)
   {
     fPWMduty = VCCMin / (float) ulSlaveBatteryVoltage * (abs(cRssi_dbm) - 10) * 2.55F;    // -100dBm eq. 100 degC
     analogWrite(PWM_Pin, fPWMduty);
@@ -275,5 +308,29 @@ void Rssi_dbm_int (void)
 
   attachInterrupt(digitalPinToInterrupt(PushButton_Pin), Rssi_dbm_int, FALLING);
   attachInterrupt(digitalPinToInterrupt(GDO2), rf_available_int, RISING);
+}
+
+void vClearEEPROM(void)
+{
+  unsigned int i;
+
+  Serial.println(F("Clearing EEPROM"));
+
+  for (i = 0 ; i < EEPROM.length() ; i++)
+  {
+    EEPROM.write(i, 0);
+  }
+
+  Serial.println(F("Done !"));
+}
+
+void vInitADC(void)
+{
+  // dummy conversion to initialize ADC
+  ADMUX |= _BV(REFS0);  // ulSlaveBatteryVoltage with external capacitor at AREF pin
+  ADMUX |= ADC_InVBG;   // Input Channel Selection: 1.1V (VBG)
+  ADCSRA |= _BV(ADEN);  // enable ADC
+  ADCSRA |= _BV(ADSC);  // Messung starten
+  while (bitRead(ADCSRA, ADSC));  //warten bis Messung beendet ist
 }
 
