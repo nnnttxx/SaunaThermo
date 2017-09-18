@@ -10,8 +10,10 @@
 #define EECalDataAddress  2
 
 // Pin defines
-#define PWM_Pin         9       // PWM output Pins 3, 5, 6, 9, 10, 11. The PWM outputs generated on pins 5 and 6 will have higher-than-expected duty cycles.
+#define LowVoltage_Pin  A3       // ext. int Pins 2, 3
 #define PushButton_Pin  3       // ext. int Pins 2, 3
+#define PWM_Pin         9       // PWM output Pins 3, 5, 6, 9, 10, 11. The PWM outputs generated on pins 5 and 6 will have higher-than-expected duty cycles.
+
 
 // ADC Input defines
 #define ADC_InCH0   0
@@ -78,7 +80,8 @@ void setup()
   Serial.begin(9600);
   Serial.println(F("**** Slave ***"));
 
-  pinMode(PushButton_Pin, INPUT_PULLUP);
+  pinMode(PushButton_Pin, INPUT_PULLUP);    // RSSI Interrupt    
+  pinMode(LowVoltage_Pin, INPUT_PULLUP);    // Low Voltage detector MCP111-315
 
   // init ADC
   vInitADC();
@@ -120,7 +123,7 @@ void setup()
   analogWrite(PWM_Pin, 0);
 
   // enter state machine
-  if (ulSlaveBatteryVoltage < VCCMin)
+  if (digitalRead(LowVoltage_Pin) == 0)
   {
     eSlaveState = LowBatterySlave;
   }
@@ -131,6 +134,9 @@ void setup()
   }
 
   ulRxTmoCounter = ulRxTmoCounterDefault;
+
+  // Clear interrupt flags
+  EIFR = 0x02;
 
   // init interrrupt function for available packet
   attachInterrupt(digitalPinToInterrupt(GDO2), rf_available_int, RISING);
@@ -145,7 +151,15 @@ void loop()
   {
     case Idle:
       Serial.println(F("State Idle"));
+      Serial.print(F("Voltage Pin :"));Serial.println(digitalRead(LowVoltage_Pin));
       analogWrite(PWM_Pin, fPWMdutyIdle);
+
+      if (digitalRead(LowVoltage_Pin) == 0)
+      {
+        cc1100.powerdown();
+        eSlaveState = LowBatterySlave;
+        break;
+      }
 
       if (ucCc1101_packet_available == TRUE)
       {
@@ -159,7 +173,7 @@ void loop()
       ulSlaveBatteryVoltage = ulMeasureVCC();
       Serial.print(F("ulSlaveBatteryVoltage Voltage: ")); Serial.println(ulSlaveBatteryVoltage);
 
-      if (ulSlaveBatteryVoltage < VCCMin)
+      if (digitalRead(LowVoltage_Pin) == 0)
       {
         cc1100.powerdown();
         eSlaveState = LowBatterySlave;
@@ -210,7 +224,7 @@ void loop()
       Serial.print(F("ulSlaveBatteryVoltage Voltage: ")); Serial.println(ulSlaveBatteryVoltage);
       cc1100.powerdown();
 
-      if (ulSlaveBatteryVoltage > (VCCMin + 300))   // 3.3V
+      if (digitalRead(LowVoltage_Pin) == 1)   
       {
         eSlaveState = Idle;
         cc1100.receive();

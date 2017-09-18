@@ -131,10 +131,11 @@ void loop()
   {
     case Cold:
       Serial.println(F("COLD"));
+      Serial.print("TemperatureK: "); Serial.println(TxData.uiTemperatureK);
       TxData.etTxProtocol = etSleep;
       TxData.ulSleepTimeMs = SleepTimeColdMs;
 
-      if (TxData.uiTemperatureK > TempKHot)
+      if (TxData.uiTemperatureK >= TempKHot)
       {
         Serial.println(F("COLD to HOT"));
         eSaunaState = Hot;
