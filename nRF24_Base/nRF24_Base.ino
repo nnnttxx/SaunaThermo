@@ -19,14 +19,14 @@
 // Data wire is plugged into port 2 on the Arduino
 #define ONE_WIRE_BUS DS18B20_DQ
 
-#define SleepTimeColdMs   1800000   // 30 min
+#define SleepTimeColdMs   900000   // 15 min
 #define SleepTimeHotMs    30000     // 0,5 min
 #define TempKHot        50 + 273       // Hysteresis rising 
 #define TempKCold       45 + 273       // Hysteresis falling
 
 //#define SleepTimeColdMs   10000   // 30 min
 //#define SleepTimeHotMs    5000     // 0,5 min
-//#define TempKHot        20 + 273       // Hysteresis rising 
+//#define TempKHot        15 + 273       // Hysteresis rising 
 //#define TempKCold       TempKHot       // Hysteresis falling
 
 enum eMainState
@@ -163,7 +163,7 @@ void loop()
       {
         Serial.println(F("HOT to COLD"));
         eSaunaState = Cold;
-        TxData.ulSleepTimeMs = SleepTimeColdMs;
+        TxData.ulSleepTimeMs = SleepTimeHotMs;
         TxData.etTxProtocol = etCoolingDown;
       }
 
